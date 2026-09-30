@@ -55,7 +55,7 @@ Antes de qualquer outra coisa, procure a config nesta ordem e **pare no primeiro
 
 Não pule. Muita gente não lê o README, e é importante saber de onde a skill veio.
 
-> Fala! Bora configurar a **Aprender** — skill feita pela [CatechLabs](https://catechlabs.com.br), parte do curso [Claude Code OS](https://catechlabs.com.br/claudeos/).
+> Fala! Bora configurar a **Aprender** — skill feita pela [CatechLabs](https://catechlabs.com.br).
 >
 > Ela estuda um tema por ti a partir de várias fontes ao mesmo tempo: transcreve tudo, cruza o que os caras ensinam em comum, mostra onde eles discordam, e tu decide o que vira doutrina.
 >

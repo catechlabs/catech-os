@@ -106,13 +106,9 @@ Se você não mandar links, ela busca as fontes e te mostra os candidatos antes 
 
 ---
 
-## Feito com Claude Code, nos cursos da CatechLabs
+## Feito com Claude Code, com a CatechLabs
 
-Essa skill nasceu dentro do universo da **[CatechLabs](https://catechlabs.com.br)**, a escola de IA aplicada. Se você quer aprender a construir skills e automações assim (do zero, mesmo sem ser programador), é lá:
-
-- **Claude Code OS** — monte seu sistema operacional de trabalho com IA no Claude Code
-- **Generalista de IA** — do "usar" ao "construir" com IA
-- **Comunidade CatechLabs** — todos os cursos + fórum + suporte
+Essa skill nasceu dentro do universo da **[CatechLabs](https://catechlabs.com.br)**, a escola de IA aplicada. Mais em [catechlabs.com.br](https://catechlabs.com.br).
 
 👉 **[catechlabs.com.br](https://catechlabs.com.br)**
 

@@ -1,13 +1,13 @@
 # CatechLabs OS
 
-O sistema operacional do seu negócio, feito pelo [CatechLabs](https://catechlabs.com.br) pra alunos do curso **CatechLabs OS** (o Claude Code OS).
+O sistema operacional do seu negócio, feito pelo [CatechLabs](https://catechlabs.com.br).
 
 ---
 
 ## Como instalar
 
-O kit funciona no **Claude Code** e no **Codex** (Windows, Mac ou Linux). Você baixou um zip na
-plataforma do curso; instalar é abrir a pasta e chamar o setup.
+O kit funciona no **Claude Code** e no **Codex** (Windows, Mac ou Linux). Você baixou um zip do kit;
+instalar é abrir a pasta e chamar o setup.
 
 **1. Descompacte o zip** onde você guarda seus projetos. Essa pasta vai ser a casa do seu negócio
 (pode renomear pra o nome dele, se quiser).
@@ -61,7 +61,5 @@ do kit novo. Ele mostra o que mudou, aplica no máximo três coisas por vez, e v
 ---
 
 ## Ficou travado?
-
-Assiste a **Aula 1.3** do curso (instalação do Claude Code).
 
 Dúvidas: [catechlabs.com.br](https://catechlabs.com.br)

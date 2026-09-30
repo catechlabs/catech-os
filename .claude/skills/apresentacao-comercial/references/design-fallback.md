@@ -76,7 +76,7 @@ Notas adicionais: {{...}}
 
 Quando a skill encontrar (em ordem de prioridade):
 
-1. `./marca/design-guide.md` (formato CatechLabsOS)
+1. `./marca/design-guide.md` (formato CatechLabs OS)
 2. `./design.md` (raiz do projeto)
 3. `./design-guide.md` (raiz)
 4. `./.claude/design.md`

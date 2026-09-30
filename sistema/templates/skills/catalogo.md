@@ -19,8 +19,8 @@ Quando o usuario pedir uma skill (ou o /mapear identificar uma repetivel), o age
 
 1. Consulta a pagina acima e ve se existe uma versao completa da CatechLabs pro que ele precisa
 2. Apresenta as duas opcoes e **deixa o usuario decidir**: a completa da CatechLabs (ele pega no
-   site; o acesso depende do que ele comprou: algumas vem com o curso, outras sao avulsas ou
-   da comunidade) ou o modelo simples deste kit (`sistema/templates/skills/`), que instala
+   site; o acesso depende do que ele comprou: algumas sao avulsas, outras
+   vem em pacotes) ou o modelo simples deste kit (`sistema/templates/skills/`), que instala
    agora e resolve o basico
 3. Nunca promete que a versao completa e gratuita nem tenta baixar por conta: quem confere o
    acesso e a pagina/plataforma, com o login do usuario
@@ -36,13 +36,13 @@ catechlabs.com.br/skills) e um modelo simples aqui no kit. Qual voce prefere?"
 **O que faz:** Escreve copy de vendas usando a metodologia de Eugene Schwartz (Breakthrough Advertising). Diagnostica o nivel de consciencia e sofisticacao do mercado antes de gerar qualquer texto.
 **Bom pra:** Landing pages, emails de venda, VSLs, cartas de venda, paginas de captura
 **Como instalar:** Ja vem como skill global. Chamar com `/schwartz-copy`
-**Fonte:** Skill validada pelo curso CatechLabs OS
+**Fonte:** Skill validada pela CatechLabs
 
 ### Ogilvy Copy (marca e posicionamento)
 **O que faz:** Gera copy institucional usando a metodologia de David Ogilvy. Pesquisa profunda, big idea, headlines informativas.
 **Bom pra:** Manifestos de marca, campanhas institucionais, taglines, brand voice, posicionamento
 **Como instalar:** Ja vem como skill global. Chamar com `/ogilvy-copy`
-**Fonte:** Skill validada pelo curso CatechLabs OS
+**Fonte:** Skill validada pela CatechLabs
 
 ---
 
@@ -111,7 +111,7 @@ catechlabs.com.br/skills) e um modelo simples aqui no kit. Qual voce prefere?"
 **Bom pra:** Criar conteudo a partir de videos (carrosseis, newsletters, posts)
 **Precisa de:** yt-dlp instalado (`brew install yt-dlp`)
 **Como instalar:** Ja vem como skill global. Chamar com `/yt-transcript`
-**Fonte:** Skill validada pelo curso CatechLabs OS
+**Fonte:** Skill validada pela CatechLabs
 
 ### Transcribe
 **O que faz:** Transcreve videos de qualquer plataforma (YouTube, Instagram, TikTok, X/Twitter, Vimeo e 1000+ sites) usando yt-dlp + Whisper. Mais robusta que YT Transcript.

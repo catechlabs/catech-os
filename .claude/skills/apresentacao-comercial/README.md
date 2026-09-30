@@ -2,7 +2,7 @@
 
 Skill do Claude Code pra gerar apresentações comerciais (decks de venda) em HTML navegável, com arco de storytelling estruturado em 8 atos.
 
-A skill **constrói a narrativa em texto contigo antes de gerar slides** — não joga um deck pronto. E adapta o visual à tua marca (lê do teu CatechLabsOS, do teu `design.md`, ou faz um setup rápido contigo na primeira vez).
+A skill **constrói a narrativa em texto contigo antes de gerar slides** — não joga um deck pronto. E adapta o visual à tua marca (lê do teu CatechLabs OS, do teu `design.md`, ou faz um setup rápido contigo na primeira vez).
 
 ## O que ela faz
 
@@ -11,7 +11,7 @@ A skill **constrói a narrativa em texto contigo antes de gerar slides** — nã
 - Adapta o visual à tua marca (cores, fonte) via variáveis CSS
 - Constrói o arco narrativo contigo antes de gerar HTML (8 atos: capa → chamado → descoberta → contexto → tensão → tese → solução → prova → investimento → fechamento)
 - Funciona out-of-the-box com template neutro preto/branco se não tiveres design configurado
-- Detecta automaticamente teu sistema visual (CatechLabsOS, `design.md`, etc) e pergunta como proceder
+- Detecta automaticamente teu sistema visual (CatechLabs OS, `design.md`, etc) e pergunta como proceder
 
 ## Instalação
 
@@ -36,7 +36,7 @@ Ou simplesmente pedir: "faz uma apresentação da proposta pro cliente X" — o 
 Na primeira execução, a skill faz um mini-setup:
 
 1. **Procura contexto existente** na ordem:
-   - `_contexto/empresa.md` (padrão do Claude Code OS / CatechLabsOS)
+   - `_contexto/empresa.md` (padrão do Claude Code OS / CatechLabs OS)
    - `marca/design-guide.md`
    - `design.md` ou `design-guide.md` na raiz
    - `.claude/design.md`
@@ -128,7 +128,7 @@ O que NÃO mudou:
 
 ## Créditos
 
-Skill criada por [@catechlabs](https://catechlabs.com.br), compartilhada com a comunidade de alunos da [CatechLabs](https://catechlabs.com.br).
+Skill criada por [@catechlabs](https://catechlabs.com.br), compartilhada pela [CatechLabs](https://catechlabs.com.br).
 
 ## Licença
 

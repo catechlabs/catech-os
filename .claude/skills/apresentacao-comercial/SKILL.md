@@ -30,18 +30,18 @@ Gera um HTML único, auto-contido, com múltiplos slides navegáveis (teclado, c
 Antes de qualquer coisa, verificar se já existe contexto configurado. Procurar nesta ordem:
 
 **Contexto de negócio:**
-1. `./_contexto/empresa.md` (padrão CatechLabsOS / Claude Code OS)
+1. `./_contexto/empresa.md` (padrão CatechLabs OS / Claude Code OS)
 2. `./_contexto/preferencias.md`
 3. `./_contexto/estrategia.md`
 4. `./CLAUDE.md` (contexto geral do projeto)
 
 **Sistema visual:**
-1. `./marca/design-guide.md` (padrão CatechLabsOS)
+1. `./marca/design-guide.md` (padrão CatechLabs OS)
 2. `./design.md` ou `./design-guide.md` (raiz do projeto)
 3. `./.claude/design.md`
 4. `~/.claude/design.md` (global do usuário)
 
-### Cenário A — Achou CatechLabsOS ou design.md
+### Cenário A — Achou CatechLabs OS ou design.md
 
 Perguntar pro usuário em UMA mensagem curta:
 
@@ -265,7 +265,7 @@ Depois do cenário atual (dores) e antes da tese (como a gente lê), colocar um 
 Usuário: "monta um deck da proposta pro [cliente X]"
 
 Skill (primeira vez):
-1. Detecta contexto disponível (CatechLabsOS / design.md / nada)
+1. Detecta contexto disponível (CatechLabs OS / design.md / nada)
 2. Pergunta como proceder (cenário A/B/C)
 3. Carrega o sistema visual escolhido
 

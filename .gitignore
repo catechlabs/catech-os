@@ -1,4 +1,11 @@
 .DS_Store
-.env
 .origem
 .agents/
+.claude/settings.local.json
+.env
+.env.*
+!.env.example
+node_modules/
+*.mp4
+*.mov
+*.zip
