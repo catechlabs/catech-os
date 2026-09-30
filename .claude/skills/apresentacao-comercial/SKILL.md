@@ -36,7 +36,7 @@ Antes de qualquer coisa, verificar se já existe contexto configurado. Procurar 
 4. `./CLAUDE.md` (contexto geral do projeto)
 
 **Sistema visual:**
-1. `./marca/design-guide.md` (padrão CatechLabs OS)
+1. a marca da gaveta `_contexto/marca/` (design-guide dentro dela)
 2. `./design.md` ou `./design-guide.md` (raiz do projeto)
 3. `./.claude/design.md`
 4. `~/.claude/design.md` (global do usuário)
@@ -45,7 +45,7 @@ Antes de qualquer coisa, verificar se já existe contexto configurado. Procurar 
 
 Perguntar pro usuário em UMA mensagem curta:
 
-> Vi que tens contexto configurado aqui (`marca/design-guide.md` e/ou `_contexto/empresa.md`). Quer que eu use como base pra apresentação, ou prefere montar do zero?
+> Vi que tens contexto configurado aqui (a marca em `_contexto/marca/` e/ou `_contexto/empresa.md`). Quer que eu use como base pra apresentação, ou prefere montar do zero?
 >
 > 1. Usar o que já tem (recomendado)
 > 2. Montar do zero e ignorar
@@ -125,7 +125,7 @@ O arco é flexível. Nem toda proposta tem todos os beats. Mas a ordem importa: 
 Para cada beat, alinhar com o usuário:
 - Qual o título do slide
 - Qual a mensagem central (1 frase)
-- Quais dados/frases entram
+- Quais dados e frases entram
 - Qual template recomendado (1-10)
 
 **Só partir pra Fase 2 depois que o usuário aprovar o arco completo.**

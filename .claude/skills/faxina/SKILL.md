@@ -38,7 +38,7 @@ achou algo. "Nada encontrado" some.
 2. **Teto dos arquivos que carregam toda sessão.** `AGENTS.md` (teto na primeira linha) e os três
    do boot (teto no comentário do topo). Estourou: dizer quanto e propor o corte (o que virar
    ponteiro pra arquivo próprio). Não cortar sozinho.
-3. **Segredo fora do lugar.** `grep -rIl` por `sk-`, `ghp_`, `AKIA`, `-----BEGIN`, `password=`,
+3. **Segredo fora do lugar.** `grep -rIl` por `sk-` (20+ caracteres, não no meio de palavra como `task-`), `ghp_`, `AKIA`, `-----BEGIN`, `password=`,
    `token=`, `api_key`, e CPF (`\d{3}\.\d{3}\.\d{3}-\d{2}`) em tudo que não é `.env`. Avisar arquivo
    e linha. Nunca apagar.
 4. **O diário rende?** Contar os arquivos de diário dos últimos 30 dias e, no mesmo período, o que

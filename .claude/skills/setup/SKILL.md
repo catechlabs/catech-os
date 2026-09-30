@@ -201,6 +201,9 @@ git de propósito: cada computador tem o seu.
 
 ### 6. Conectores (MCPs)
 
+Antes de oferecer qualquer conector, ler a seção "Antes de instalar qualquer coisa" do catálogo e
+rodar `command -v npx`: sem Node, não instalar conector de `npx`; explicar em linguagem de gente e
+seguir sem ele. Gmail e Agenda pedem Google Cloud: oferecer primeiro o conector da conta do Claude.
 Ler o catálogo em `sistema/templates/ferramentas/catalogo.md` e cruzar com a pergunta 6. Pra cada
 ferramenta que tem conector: dizer o que ele faz, mostrar o comando, perguntar se instala agora.
 Instalar só com o sim específico daquele conector; "faz tudo" não vale pra instalar nada.

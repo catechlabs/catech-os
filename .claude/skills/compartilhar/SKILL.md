@@ -10,7 +10,7 @@ description: >
 
 # /compartilhar · a pasta vira uma casa que se vira sozinha
 
-Dentro do sistema, a pasta de projeto herda tudo da raiz por gatilho (`../../marca`,
+Dentro do sistema, a pasta de projeto herda tudo da raiz por gatilho (`../../_contexto/marca`,
 `../../AGENTS.md`). Fora do sistema, esses caminhos quebram. Esta skill copia pra dentro o que a
 pasta alcançava por fora, e faz dela um repositório próprio. **A raiz não viaja**; só a pasta.
 
@@ -23,7 +23,7 @@ Perguntar pra quem vai e o que a pessoa vai fazer: só ler, ou trabalhar junto. 
 
 ```bash
 find <pasta> -name '.env*' -o -name '*.json' -o -name '*.yaml' | head
-grep -rIl 'sk-\|ghp_\|AKIA\|-----BEGIN\|password=\|token=\|api_key' <pasta> 2>/dev/null
+grep -rIlE '(^|[^A-Za-z0-9])sk-[A-Za-z0-9_-]{20,}|ghp_|AKIA|-----BEGIN|password=|token=|api_key' <pasta> 2>/dev/null
 ```
 
 Achou chave, token ou senha: **parar**, mostrar onde, e resolver antes de seguir (mover pro `.env`

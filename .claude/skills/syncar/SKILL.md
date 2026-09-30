@@ -65,7 +65,7 @@ Listar os arquivos de `git status --short` em linguagem de gente (não a saída 
 3 arquivos novos e 2 alterados: a proposta da Acme, o diário de hoje, ..."*. Antes disso, três
 conferências, sem perguntar:
 
-- **Segredo:** procurar nos arquivos que vão subir por cara de chave (`sk-`, `ghp_`, `AKIA`,
+- **Segredo:** procurar nos arquivos que vão subir por cara de chave (`sk-` seguido de 20+ letras/números e não colado numa palavra, pra não barrar `task-`; `ghp_`, `AKIA`,
   `-----BEGIN`, `password=`, `token=`, `api_key`). Achou: **não sobe esse arquivo**, avisar
   qual e onde, e sugerir mover a chave pro `.env`.
 - **Pesado:** arquivo acima de 50 MB fica de fora, e avisa: *"tem arquivo pesado demais pro GitHub

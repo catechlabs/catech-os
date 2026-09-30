@@ -76,7 +76,7 @@ Notas adicionais: {{...}}
 
 Quando a skill encontrar (em ordem de prioridade):
 
-1. `./marca/design-guide.md` (formato CatechLabs OS)
+1. a marca da gaveta `_contexto/marca/` (formato CatechLabs OS)
 2. `./design.md` (raiz do projeto)
 3. `./design-guide.md` (raiz)
 4. `./.claude/design.md`

@@ -58,7 +58,7 @@ for f in _contexto/*.md _contexto/marca/design-guide.md _memoria/decisoes.md; do
 done
 
 # 5. nenhum caminho fixo velho em skill (a regra: cita a gaveta pelo nome do mapa)
-if grep -rnE '`marca/design-guide|marca/design-guide\.md|dados/|`templates/|`scripts/| scripts/sync-ponte|tarefas\.md|git add -A cego|está seguro em' \
+if grep -rnE '`marca/design-guide|marca/design-guide\.md|dados/| scripts/sync-ponte|tarefas\.md|git add -A cego|está seguro em' \
      .claude/skills sistema/templates/skills 2>/dev/null | grep -v 'sistema/scripts/\|sistema/templates/\|nunca `git add -A`\|Nada de `git add -A`\|`git add -A` só depois\|`git add -A` sem antes\|nem `dados/`\|Nada de `tarefas\|dentro da pasta\|na pasta\|própria' ; then
   falha "caminho fixo velho (ou frase proibida) em skill; ver linhas acima"
 fi

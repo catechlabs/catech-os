@@ -5,6 +5,20 @@ Consulte este arquivo antes de criar skills novas pra saber o que ja esta dispon
 
 ---
 
+## Antes de instalar qualquer coisa (leia primeiro)
+
+- **Node.js:** todo item com `npx` precisa dele, e Mac de quem não programa não tem. Antes do
+  primeiro "sim, instala", rodar `command -v npx`. Se não achar, parar e dizer em linguagem de gente:
+  "falta o Node.js (um programa de apoio); instalo pra você pelo nodejs.org, ou seguimos sem esse conector".
+  Nunca deixar o erro cru de `npx: command not found` chegar na pessoa.
+- **Gmail e Agenda do Google:** exigem criar projeto e credencial no Google Cloud. É trabalho de
+  quem mexe com TI. Pra quem é leigo, oferecer o conector do Gmail/Agenda que já vem na conta do Claude
+  (login com um clique), e deixar este só pra quem topa a configuração.
+- **Backup no GitHub (`/syncar`):** pede conta no GitHub e `gh auth login` no terminal. Dizer isso
+  antes, e guiar passo a passo. Sem conta, o sistema funciona igual; só não tem cópia na nuvem.
+
+---
+
 ## Criar visuais (HTML pra PNG)
 
 ### Playwright CLI
