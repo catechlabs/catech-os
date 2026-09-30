@@ -155,6 +155,6 @@ no fim", e a sessão nunca morre sem essa oferta. Não oferecer em sessão trivi
 - `_contexto/` · o que o sistema sabe do negócio. Não apagar
 - `_memoria/` · o que aconteceu e por quê: `diario/`, `decisoes.md`, `recados/`
 - `sistema/` · o motor do kit (scripts e modelos). Você não precisa abrir
-- `.claude/` · as habilidades (skills) deste sistema
+- `.claude/` · as habilidades (`skills/`) e o time de agentes (`agents/`) deste sistema; a porta de entrada é a Beth (`/beth`)
 - `.catechlabs-os` · a versão do kit (uma linha). Não apague: é como a atualização sabe de onde você parte
 <!-- pastas de trabalho abaixo, criadas pelo /setup conforme o negócio -->
