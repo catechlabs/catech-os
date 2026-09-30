@@ -37,7 +37,7 @@ Na primeira execução, a skill faz um mini-setup:
 
 1. **Procura contexto existente** na ordem:
    - `_contexto/empresa.md` (padrão do Claude Code OS / CatechLabs OS)
-   - `marca/design-guide.md`
+   - a marca em `_contexto/marca/`
    - `design.md` ou `design-guide.md` na raiz
    - `.claude/design.md`
    - `~/.claude/design.md` (global)
